@@ -13,5 +13,9 @@
 
         <!--Classes-->
         <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
-    </files>
+	
+	    
+	<!--Items-->
+	<file name="items-gear.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
+   </files>
 </index>
