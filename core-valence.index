@@ -4,7 +4,7 @@
         <name>Grimoire of Valence</name>
         <description>Content manually added by Drago Valence, I do not claim ownership for most of it, I just implemented it.</description>
         <author url="https://github.com/DragoValence">Implementation by Drago Valence</author>
-        <update version="0.0.10">
+        <update version="0.0.11">
             <file name="core-valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence.index" />
         </update>
     </info>
