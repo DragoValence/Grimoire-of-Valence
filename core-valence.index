@@ -10,6 +10,6 @@
     </info>
     <files>
         <obsolete name="sources.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/sources.xml" />
-        <file name="grimoire_of_valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence.index" />
+        <file name="grimoire-of-valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence.index" />
     </files>
 </index>
