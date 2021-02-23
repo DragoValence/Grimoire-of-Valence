@@ -4,8 +4,8 @@
 		<name>Grimoire of Valence</name>
 		<description>The Grimoire of content from Drago Valence</description>
 		<author>Drago Valence</author>
-		<update version="0.2">
-			<file name="grimoire-of-valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire_of_valence.index" />
+		<update version="0.3">
+			<file name="grimoire_of_valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire_of_valence.index" />
 		</update>
 	</info>
     <files>
