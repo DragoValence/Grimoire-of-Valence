@@ -9,7 +9,7 @@
 		</update>
 	</info>
     <files>
-        <file name="source.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/sources.xml" />
+        <file name="source.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/source.xml" />
 
         <!--Classes-->
         <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
