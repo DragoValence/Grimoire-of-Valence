@@ -1,0 +1,16 @@
+<elements>
+  <info>
+      <update version="0.0.2">
+         <file name="sources.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/sources.xml" />
+      </update>
+  </info>
+      <element name="Grimoire of Valence" type="Source" source="Grimoire of Valence" id="ID_GOV_SOURCE_GRIMOIRE_OF_VALENCE">
+        <description>
+          <p>The Grimoire of Drago Valence</p>
+        <description>
+        <setters>
+          <set name="abbreviation">GOV</set>
+          <set name="author" abbreviation="DV">Drago Valence</set>
+        </setters>
+      </element>
+</elements>
