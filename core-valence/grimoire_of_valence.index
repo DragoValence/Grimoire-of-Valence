@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Grimoire of Valence</name>
+		<description>The Grimoire of content from Drago Valence</description>
+		<author>Drago Valence</author>
+		<update version="0.2">
+			<file name="grimoire-of-valence.index" url="" />
+		</update>
+	</info>
+    <files>
+        <file name="source.xml" url=""
+
+        <!--Classes-->
+        <file name="blade-dancer.xml" url="https://github.com/DragoValence/Grimoire-of-Valence/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
+    </files>
+</index>
