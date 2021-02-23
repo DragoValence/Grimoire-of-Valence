@@ -4,7 +4,7 @@
 		<name>Grimoire of Valence</name>
 		<description>The Grimoire of content from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Drago Valence</author>
-		<update version="0.5">
+		<update version="0.6">
 			<file name="grimoire_of_valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire_of_valence.index" />
 		</update>
 	</info>
@@ -13,7 +13,6 @@
 
         <!--Classes-->
         <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
-	
 	    
 	<!--Items-->
 	<file name="items-gear.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
