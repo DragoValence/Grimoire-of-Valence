@@ -5,7 +5,7 @@
         <description>Content manually added by Drago Valence, I do not claim ownership for most of it, I just implemented it.</description>
         <author>Implementation by Drago Valence</author>
         <update version="0.0.6">
-            <file name="valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/valence.index" />
+            <file name="valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence.index" />
         </update>
     </info>
     <files>
