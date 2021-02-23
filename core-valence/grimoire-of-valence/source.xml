@@ -14,8 +14,8 @@
           <set name="author" abbreviation="DV" url="https://github.com/DragoValence">Drago Valence</set>
           <set name="url">https://github.com/DragoValence</set>
           <set name="official">false</set>
-			    <set name="core">false</set>
-		    	<set name="release">69</set>
+	  <set name="core">false</set>
+	  <set name="release">69</set>
         </setters>
       </element>
 </elements>
