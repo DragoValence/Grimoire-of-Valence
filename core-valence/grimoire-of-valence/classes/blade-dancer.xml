@@ -4,7 +4,7 @@
 		<name>Blade Dancer</name>
 		<description>The Blade Dancer from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
 		</update>
 	</info>
