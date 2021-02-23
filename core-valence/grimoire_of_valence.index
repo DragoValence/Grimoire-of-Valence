@@ -12,6 +12,6 @@
         <file name="source.xml" url=""
 
         <!--Classes-->
-        <file name="blade-dancer.xml" url="https://github.com/DragoValence/Grimoire-of-Valence/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
+        <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
     </files>
 </index>
