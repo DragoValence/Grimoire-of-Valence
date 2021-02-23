@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+    <info>
+		<name>Blade Dancer</name>
+		<description>The Blade Dancer from Drago Valence</description>
+		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
+		<update version="0.0.2">
+			<file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
+		</update>
+	</info>
     <element name="Blade Dancer" type="Class" source="Grimoire of Valence" id="ID_GOV_CLASS_BLADE_DANCER">
         <description>
             <p>Fast but precise, lethal yet elegant, the Blade dancer utilizes quick movements and a specialized weapon for a spectacle of flurrying attacks while dodging effortlessly through combat. Watching one is awe inspiring, fighting one is unrelenting</p>
