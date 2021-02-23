@@ -10,7 +10,8 @@
         </description>
         <setters>
           <set name="abbreviation">GOV</set>
-          <set name="author" abbreviation="DV">Drago Valence</set>
+          <set name="author" abbreviation="DV" url="https://github.com/DragoValence">Drago Valence</set>
+          <set name="url">https://github.com/DragoValence</set>
         </setters>
       </element>
 </elements>
