@@ -9,6 +9,6 @@
         </update>
     </info>
     <files>
-        <file name="grimoire_of_valence.index" url="https://github.com/DragoValence/Grimoire-of-Valence/core-valence/grimoire-of-valence.index" />
+        <file name="grimoire_of_valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire_of_valence.index" />
     </files>
 </index>
