@@ -2,7 +2,7 @@
 <elements>
   <info>
       <update version="0.0.3">
-         <file name="sources.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/sources.xml" />
+         <file name="sources.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/source.xml" />
       </update>
   </info>
       <element name="Grimoire of Valence" type="Source" source="Grimoire of Valence" id="ID_GOV_SOURCE_GRIMOIRE_OF_VALENCE">
