@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Blade Dancer" type="Class" source="Grimoire of Valence" id="ID_GOV_CLASS_BLADE_DANCER">
+        <description>
+            <p>Fast but precise, lethal yet elegant, the Blade dancer utilizes quick movements and a specialized weapon for a spectacle of flurrying attacks while dodging effortlessly through combat. Watching one is awe inspiring, fighting one is unrelenting</p>
+            <h4>GRACEFUL FIGHTERS</h4>
+            <p>Blade dancers are a blur of blades and magic woven into a graceful display of talent and power. Each Blade Dancer fights differently with unique styles and movements, their weapons taking on different forms as they’re a reflection of its wielder's soul. </p>
+            <h4>TRAINED DANCERS</h4>
+            <p>Blade dancers are very vibrant souls as their fighting style would depict, the more emotional the soul, the more potent their magic might become,the highs and lows of emotions can be the difference between a violent blitz of blood soaked steel, to a calm and defensive stance designed to disarm. Blade dancers are extremely adaptable and suited for turning their emotions, even the most gruesome ones into spectacular displays of bladesmanship</p>
+            <h4>Creating a Blade Dancer</h4>
+            <p>As you build a Blade Dancer, think about your backgroud; Were you trained as a fighter? or thrust into the role by circumstance? Were you formally trained or did you practice to earn money to survive?</p>
+            <h5>Quick Build</h5>
+            <p>You can make a Blade Dancer quickly by following these suggestions. First, make Dexterity your highest ability score followed by Charisma. Second, choose the Entertainer background.</p>
+            <p>As a Blade Dancer you get the following features</p>
+        <h5>HIT POINTS</h5>
+        <ul class="unstyled">
+            <li><strong>Hit Dice</strong> 1d10 per Blade Dancer Level</li>
+            <li><strong>Hit Points at 1st Level</strong> 10 + Constitution modifier </li>
+            <li><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier</li>
+        </ul>
+        <h5>PROFICIENCIES</h5>
+        <ul class="unstyled mb">
+            <li><strong>Armor:</strong> None </li>
+            <li><strong>Weapons:</strong> Spirit Weapon, and Martial Weapons</li>
+            <li><strong>Tools:</strong> Flute</li>
+            <li><strong>Saving Throws:</strong> Dexterity, Charisma </li>
+            <li><strong>Skills:</strong> Choose two from Acrobatics, Intimidation, Performance, Sleight of Hand</li>
+        </ul>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li><i>(a)</i> a Martial Weapon or <i>(b)</i> a Simple Weapon</li>
+                <li>An Instrument of your choice</li>
+            </ul>
+        <h5 class="caption">THE BLADE DANCER</h5>
+        <table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="col-10">Proficiency</td><td>Fervor</td><td>Spirit Weapon</td><td>Features</td><td>Spirit Charges</td></tr>
+            </thead>
+            <tr><td> 1st</td><td class="left">+2</td><td>-</td><td>1d6</td><td>Spirit Weapon, Double Strike, Dash</td><td>2</td></tr>
+            <tr><td> 2nd</td><td class="left">+2</td><td>-</td><td>1d6</td><td> - </td><td>2</td></tr>
+            <tr><td> 3rd</td><td class="left">+2</td><td>1d4</td><td>1d6</td><td>Flawless Duet, Fervor </td><td>4</td></tr>
+            <tr><td> 4th</td><td class="left">+2</td><td>1d4</td><td>1d6</td><td>Ability Score Improvement</td><td>4</td></tr>
+            <tr><td> 5th</td><td class="left">+3</td><td>1d4</td><td>1d8</td><td>Dance of the Defiant, Spirit Weapon Increase</td><td>4</td></tr>
+            <tr><td> 6th</td><td class="left">+3</td><td>1d4</td><td>1d8</td><td>Ability Score Improvement</td><td>4</td></tr>
+            <tr><td> 7th</td><td class="left">+3</td><td>1d4</td><td>1d8</td><td> - </td><td>6</td></tr>
+            <tr><td> 8th</td><td class="left">+3</td><td>1d6</td><td>1d8</td><td>Fervor Increase</td><td>6</td></tr>
+            <tr><td> 9th</td><td class="left">+4</td><td>1d6</td><td>2d6</td><td>Spirit Weapon Increase</td><td>6</td></tr>
+            <tr><td> 10th</td><td class="left">+4</td><td>1d6</td><td>2d6</td><td>Spirit of Maiming</td><td>6</td></tr>
+            <tr><td> 11th</td><td class="left">+4</td><td>1d6</td><td>2d6</td><td>Blade Domimance</td><td>8</td></tr>
+            <tr><td> 12th</td><td class="left">+4</td><td>1d6</td><td>2d6</td><td>Ability Score Increase</td><td>8</td></tr>
+            <tr><td> 13th</td><td class="left">+5</td><td>1d6</td><td>2d8</td><td>Spirit Weapon Increase</td><td>8</td></tr>
+            <tr><td> 14th</td><td class="left">+5</td><td>1d6</td><td>2d8</td><td>Ability Score Increase</td><td>8</td></tr>
+            <tr><td> 15th</td><td class="left">+5</td><td>1d6</td><td>2d8</td><td> - </td><td>10</td></tr>
+            <tr><td> 16th</td><td class="left">+5</td><td>1d6</td><td>2d8</td><td>Fervor Increase</td><td>10</td></tr>
+            <tr><td> 17th</td><td class="left">+6</td><td>1d8</td><td>3d6</td><td>Spirit Weapon Increase, Fervor Increase</td><td>10</td></tr>
+            <tr><td> 18th</td><td class="left">+6</td><td>1d8</td><td>3d6</td><td> - </td><td>10</td></tr>
+            <tr><td> 19th</td><td class="left">+6</td><td>1d8</td><td>3d6</td><td>Ability Score Increase</td><td>10</td></tr>
+            <tr><td> 20th</td><td class="left">+6</td><td>1d8</td><td>3d8</td><td>Navori Quickstep</td><td>10</td></tr>
+        </table>
+        <div element="ID_GOV_CLASS_FEATURE_SPIRIT_CHARGE" />
+        <div element="ID_GOV_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT_BLADEDANCER" />
+        <div element="ID_GOV_CLASS_FEATURE_DASH" />
+        <div element="ID_GOV_CLASS_FEATURE_DANCER_GRACE" />
+        <div element="ID_GOV_CLASS_FEATURE_FLAWLESS_DUET" />
+        <div element="ID_GOV_CLASS_FEATURE_SPIRIT_WEAPON" />
+        <div element="ID_GOV_CLASS_FEATURE_FERVOR" />
+        <div element="ID_GOV_CLASS_FEATURE_DANCE_OF_THE_DEFIANT" />
+        <div element="ID_GOV_CLASS_FEATURE_DOUBLE_STRIKE" />
+        <div element="ID_GOV_CLASS_FEATURE_SPIRIT_OF_MAIMING" />
+        <div element="ID_GOV_CLASS_FEATURE_BLADE_DOMINANCE" />
+        <div element="ID_GOV_CLASS_FEATURE_NAVORI_QUICKSTEP" />
+        
+        </description>
+        <sheet display="false">
+            <description>A graceful fighter who dances to the rhythm of swordplay.</description>
+        </sheet>
+        <setters>
+            <set name="short">A expert in the arcane art of Blade Dancing, skilled in performance and practiced in combat.</set>
+            <set name="hd">d10</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            <!--<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIRIT_BLADE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_INSTRUMENT_PROFICIENCY_FLUTE" />-->
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_SPIRIT_WEAPON" level="1"/>
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DOUBLE_STRIKE" level="1"/>
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DASH" level="1"/>
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_SPIRIT_CHARGE" level="1" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_FLAWLESS_DUET" level="3" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_FERVOR" level="3" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT_BLADEDANCER" level="4" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DANCE_OF_THE_DEFIANT" level="5" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_SPIRIT_OF_MAIMING" level="10" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_BLADE_DOMINANCE" level="11" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DANCER_GRACE" level="1" />
+            <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_NAVORI_QUICKSTEP" level="20" />
+        </rules>
+    </element>
+    <element name="Spirit Weapon" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_SPIRIT_WEAPON">
+        <description>
+            <p>A weapon forged from the wielder's soul, the more the wielder grows and gains experience the more potent its lethality and abilities become, often splitting apart to become more versatile in combat based on how composed its wielder is. 1d6 scaling slashing damage + Dex Mod </p>
+            <p>Deals 1d6 Damage, Increases to 1d8 at level 5, 2d6 at level 9, 2d8 at level 13, 3d6 at level 17 and 3d8 at level 20.</p>
+        </description>
+        <sheet>
+            <description level="1">You have a soulforged sword that deals 1d6.</description>
+            <description level="5">You have a soulforged sword that deals 1d8.</description>
+            <description level="9">You have a soulforged sword that deals 2d6.</description>
+            <description level="13">You have a soulforged sword that deals 2d8.</description>
+            <description level="17">You have a soulforged sword that deals 3d6.</description>
+            <description level="20">You have a soulforged sword that deals 3d8.</description>
+        </sheet>
+    </element>
+    
+    <element name="Spirit Charge" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_SPIRIT_CHARGE">
+        <description>
+            <p>Starting at the 1st Level you have 2 Spirit Charges</p>
+            <p>SPIRIT CHARGES</p>
+            <p>You have 2 Spirit Charges, and you gain more as you level up as shown in the Blade Dancer Table.</p>
+        </description>
+        <sheet>
+        <description>You have {{spirit charge:amount}} Spirit Charges and your Spirit Charge DC is {{spirit charge:dc}}</description>
+        </sheet>
+        <rules>
+            <stat name="spirit charge:amount" value="2" />
+            <stat name="spirit charge:amount" value="2" level="4"/>
+            <stat name="spirit charge:amount" value="2" level="7"/>
+            <stat name="spirit charge:amount" value="2" level="11"/>
+            <stat name="spirit charge:amount" value="2" level="15"/>
+            <stat name="spirit charge:dc" value="10"/>
+            <stat name="spirit charge:dc" value="proficiency"/>
+            <stat name="spirit charge:dc" value="dexterity:modifier"/>
+        </rules>
+    </element>
+    
+    <element name="Dancer's Grace" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DANCER_GRACE">
+        <description>
+            <p>Beginning at 1st level your graceful movements keep you safe, while unarmoured your AC equals 10 + your Dexterity modifier + your Charisma Modifier</p>
+        </description>
+        <sheet>
+            <description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defence dancer}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:unarmored defence dancer:base" value="10" />
+            <stat name="ac:unarmored defence dancer:dexterity" value="dexterity:modifier" />
+            <stat name="ac:unarmored defence dancer:charisma" value="charisma:modifier" />
+            <stat name="ac:unarmored defence dancer" value="ac:unarmored defence dancer:base" />
+            <stat name="ac:unarmored defence dancer" value="ac:unarmored defence dancer:dexterity" />
+            <stat name="ac:unarmored defence dancer" value="ac:unarmored defence dancer:charisma" />
+            <stat name="ac:calculation" value="ac:unarmored defence dancer" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Dancer's Grace (Blade Dancer)" />
+        </rules>
+    </element>
+
+    <element name="Dash" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DASH">
+        <description>
+            <p>Starting at the 1st Level as a bonus action you can consume 2 Spirit charges for a dash. Spirit charges can be restored upon killing an enemy that was hit by dash this turn (2). Dash deals 1d8 slashing damage. </p>
+        </description>
+        <sheet>
+            <description>As a bonus action you can consume 2 Spirit charges for a dash. Spirit charges can be restored upon killing an enemy that was hit by dash this turn (2). Dash deals 1d8 slashing damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Double Strike" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DOUBLE_STRIKE">
+        <description>
+            <p>Starting at the 1st Level you have the Innate ability to strike twice in one action</p>
+        </description>
+        <sheet>
+            <description>You can strike twice on an attack action</description>
+        </sheet>
+    </element>
+
+    <element name="Flawless Duet" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_FLAWLESS_DUET">
+        <description>
+            <p>Starting at the 3rd Level you may use Flawless Duet, You can consume 4 Spirit charges to sever the ankles of any creatures between you and the target location within 10 feet creatures must make a dex saving throw or be stunned until the end of your next turn. Deals 1d6 slashing damage.</p>
+        </description>
+        <sheet>
+            <description>You can consume 4 Spirit charges to sever the ankles of a creature in line of sight. DC 10 + Dex Mod save, on a failed save the target takes 1d6 damage and be knocked prone, on a successful save takes 1d6 damage instead</description>
+        </sheet>
+    </element>
+
+    <element name="Fervor" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_FERVOR">
+        <description>
+            <p>Starting at 3rd level the latent magic in your Spirit blade does extra force damage on hit. Starting at 1d4 and increasing to 1d6 at level 8 and again to 1d8 at level 17</p>
+        </description>
+        <sheet>
+            <description level="3">The latent magic in your spirit blade makes it deal an additional 1d4 force damage on hit.</description>
+            <description level="8">The latent magic in your spirit blade makes it deal an additional 1d6 force damage on hit.</description>
+            <description level="17">The latent magic in your spirit blade makes it deal an additional 1d8 force damage on hit</description>
+        </sheet>
+    </element>
+
+    <element name="Ability Score Improvement" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_ABILITY_SCORE_IMPROVEMENT_BLADEDANCER">
+        <compendium display="false" />
+        <description>
+            <p>When you reach 4th level, and again at 6th, 12th, 14th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Improvement Option (Blade Dancer 4)" supports="Improvement Option,Blade Dancer,4" level="4"/>
+            <select type="Class Feature" name="Improvement Option (Blade Dancer 6)" supports="Improvement Option,Blade Dancer,6" level="6"/>
+            <select type="Class Feature" name="Improvement Option (Blade Dancer 12)" supports="Improvement Option,Blade Dancer,12" level="12"/>
+            <select type="Class Feature" name="Improvement Option (Blade Dancer 14)" supports="Improvement Option,Blade Dancer,14" level="14"/>
+            <select type="Class Feature" name="Improvement Option (Blade Dancer 19)" supports="Improvement Option,Blade Dancer,19" level="19"/>
+        </rules>
+    </element>
+
+    <element name="Dance of the Defiant" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DANCE_OF_THE_DEFIANT">
+        <description>
+            <p>Starting at the 5th Level you may perform the Dance of the Defiant, consuming 4 Spirit charges you can use a bonus action to heighten your reflexes until your next turn adding 3 to your AC</p>
+        </description>
+        <sheet usage="Reaction">
+            <description>As a Reaction you may spend 4 Spirit Charges to heighten your sences and add 3 to your AC until the end of your next turn</description>
+        </sheet>
+    </element>
+
+    <element name="Spirit of Maiming" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_SPIRIT_OF_MAIMING">
+        <description>
+            <p>Starting at 10th level your Spirit Weapon is magical for the purpouses of overcoming resistances and immunity to non-magical attacks</p>
+        </description>
+        <sheet>
+            <description>Your Spirit Weapon is magical for the purpouses of overcoming resistances and immunity to non-magical attacks</description>
+        </sheet>
+    </element>
+
+    <element name="Blade Dominance" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_BLADE_DOMINANCE">
+        <description>
+            <p>Starting at 11th level you may use Blade Dominance, Consuming 7 Spirit charges you can launch your weapon to a range of 10 Ft if it makes contact with a creature, creatures in a cone of 15 feet must make a dex saving throw, on failure they are knocked prone, and take 7d8 slashing damage, enemies hit by the ability have disadvantage on attacks and saves until the end of your next turn. Enemies take half damage from a successful save</p>
+        </description>
+        <sheet>
+            <description>You can spend 7 spirit charges to launch your weapon 10 ft, if it connects with an enemy, everything in a 15ft cone behind the target makes a Dex Save, on a failed save they take 7d8 damage and are knocked prone, on a successful save they take half that much</description>
+        </sheet>
+    </element>
+
+    <element name="Navori Quickstep" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_NAVORI_QUICKSTEP">
+        <description>
+            <p>Starting at the 20th Level when entering combat if you have [2] or less spirit charges, regain [4] spirit charges.</p>
+        </description>
+        <sheet>
+            <description>When entering combat if you have [2] or less spirit charges, regain [4] spirit charges.</description>
+        </sheet>
+    </element>
+</elements>    
