@@ -4,7 +4,7 @@
 		<name>Blade Dancer</name>
 		<description>The Blade Dancer from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
 		</update>
 	</info>
@@ -216,10 +216,10 @@
 
     <element name="Dance of the Defiant" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DANCE_OF_THE_DEFIANT">
         <description>
-            <p>Starting at the 5th Level you may perform the Dance of the Defiant, consuming 4 Spirit charges you can use a bonus action to heighten your reflexes until your next turn adding 3 to your AC</p>
+            <p>Starting at the 5th Level you may perform the Dance of the Defiant, consuming 3 Spirit charges you can use a bonus action to heighten your reflexes until your next turn adding 3 to your AC</p>
         </description>
         <sheet usage="Reaction">
-            <description>As a Reaction you may spend 4 Spirit Charges to heighten your sences and add 3 to your AC until the end of your next turn</description>
+            <description>As a Reaction you may spend 3 Spirit Charges to heighten your sences and add 3 to your AC until the end of your next turn. When Used roll a Dex check, on a number greater then the attack roll, the attack is countered.</description>
         </sheet>
     </element>
 
