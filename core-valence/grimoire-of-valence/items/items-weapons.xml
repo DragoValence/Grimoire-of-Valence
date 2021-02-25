@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements> 
+	<info>
+		<name>Weapons</name>
+		<description></description>
+		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
+		<update version="0.0.3">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
+		</update>
+	</info>
+    <element name="Partizan" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_PARTIZAN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN</set>
+        </setters>
+    </element>
+
+    <element name="Bardiche" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_BARDICHE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE</set>
+        </setters>
+    </element>
+</elements>
