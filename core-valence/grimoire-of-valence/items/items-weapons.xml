@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
 		<update version="0.0.3">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-weapons.xml" />
 		</update>
 	</info>
     <element name="Partizan" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_PARTIZAN">
