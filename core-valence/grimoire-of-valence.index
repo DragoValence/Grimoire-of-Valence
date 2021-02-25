@@ -4,7 +4,7 @@
 		<name>Grimoire of Valence</name>
 		<description>The Grimoire of content from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Drago Valence</author>
-		<update version="0.7">
+		<update version="0.8">
 			<file name="grimoire-of-valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence.index" />
 		</update>
 	</info>
@@ -16,5 +16,6 @@
 	    
 	<!--Items-->
 	<file name="items-gear.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
+	<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-weapons.xml" />
    </files>
 </index>
