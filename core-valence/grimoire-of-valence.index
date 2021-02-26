@@ -13,7 +13,7 @@
 
         <!--Classes-->
         <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
-	    
+	<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/dragoon.xml" />
 	<!--Items-->
 	<file name="items-gear.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
 	<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-weapons.xml" />
