@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+		<name>Dragoon</name>
+		<description>The Blade Dancer from Drago Valence</description>
+		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
+		<update version="0.0.3">
+			<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
+		</update>
+	</info>
+    <element name="Dragoon" type="Class" source="Grimoire of Valence" id="ID_GOV_CLASS_DRAGOON">
+    <description>
+        <p>In a charge, with a twirl then a twist the human slashes with exquisite precision and just as much fervor, lacerating the limbs and in a flurry of steel deals a mortal wound.</p>
+        <p>A lone dragonborn stands on a ravaged battlefield, facing ruination, he mutters an ancient curse and launches himself in a shockwave that shakes the earth.</p>
+        <h4>Precise, yet Vicious</h4>
+        <p>The Dragoon is a paragon to the art of polearm combat, with trained precision they strike viciously often destroying everything involved, including the weapon.</p>
+        <h4>Trained as an Art</h4>
+        <p>Very rarely do people have the connections and training required to become a Dragoon, but they are always a terror on the battlefield when they are produced.</p>
+        <p> Naturally drawn to the fight, they are rarely seen not taking on the adventurer life.</p>
+        <h5>Quick Build</h5>
+        <p>You can make a Dragoon quickly by following these suggestions. First, make Strength or Dexterity your highest score, followed by the other, Second choose the Outlander background.</p>
+        <ul class="unstyled">
+			<li><strong>Hit Dice:</strong> 1d8 per dragoon level</li>
+			<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+			<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per dragoon level after 1st</li>
+		</ul>
+        <h5>PROFICIENCIES</h5>
+		<ul class="unstyled mb">
+			<li><strong>Armor:</strong> None</li>
+			<li><strong>Weapons:</strong> Martial Weapons</li>
+			<li><strong>Tools:</strong> Smith's Tools</li>
+		</ul>
+        <ul class="unstyled">
+			<li><strong>Saving Throws:</strong> Strength, Dexterity</li>
+			<li><strong>Skills:</strong> Choose two from Choose two skills from Athletics, Acrobatics, Insight, Perception, Survival, Investigation and Stealth</li>
+		</ul>
+        <h5>EQUIPMENT</h5>
+		<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+		<ul>
+        	<li>(a) Chain Mail and a Dagger or (b) A Glaive </li>
+			<li>(a) A Martial Weapon and a Dagger</li>
+			<li>(a) Dungeoneer’s Pack (b) Monster Hunter’s Pack</li>
+		</ul>
+        <h5 class="caption">THE DRAGOON</h5>
+		<table class="class-features">
+            <thead>
+                <tr><td class="col-5">Level</td><td class="left">Features</td><td>Proficiencies</td></tr>
+            </thead>
+                <tr><td> 1st</td><td class="left">Raw Muscle, Lunge</td></tr>
+				<tr><td> 2nd</td><td class="left">Heavy Sweep</td></tr>
+				<tr><td> 3rd</td><td class="left">Archetype</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td></tr>
+				<tr><td> 6th</td><td class="left">Archetype Feature, Vicious Critical, Ability Score Increase</td></tr>
+				<tr><td> 7th</td><td class="left">Æther Blade</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td> 9th</td><td class="left">Pike Vault</td></tr>
+				<tr><td>10th</td><td class="left">Raw Aggression</td></tr>
+				<tr><td>11th</td><td class="left">Archetype Feature</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td class="left">Twitch</td></tr>
+				<tr><td>14th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>15th</td><td class="left">Precision</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td class="left">Piercing Blow</td></tr>
+				<tr><td>18th</td><td class="left">Razor Sharp</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td class="left">Perfected Art</td></tr>
+        </table>
+        <div element="ID_GOV_CLASS_FEATURE_RAW_MUSCLE" />
+        <div element="ID_GOV_CLASS_FEATURE_LUNGE" />
+        <div element="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP" />
+        <div element="ID_GOV_CLASS_FEATURE_DRAGOON_TYPE" />
+        <div element="ID_GOV_CLASS_FEATURE_VICIOUS_CRITICAL" />
+        <div element="ID_GOV_CLASS_FEATURE_AETHER_BLADE" />
+        <div element="ID_GOV_CLASS_FEATURE_PIKE_VAULT" />
+        <div element="ID_GOV_CLASS_FEATURE_RAW_AGGRESSION" />
+        <div element="ID_GOV_CLASS_FEATURE_TWITCH" />
+        <div element="ID_GOV_CLASS_FEATURE_PRECISION" />
+        <div element="ID_GOV_CLASS_FEATURE_PIERCING_BLOW" />
+        <div element="ID_GOV_CLASS_FEATURE_PERFECTED_ART" />
+    </description>
+    <sheet display="false">
+        <description>A Expert in Polearm combat with Precision to boot</description>
+    </sheet>
+    <setters>
+        <set name="short">A Expert in Polearm combat with Precision to boot</set>
+        <set name="hd">d8</set>
+    </setters>
+    <rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_RAW_MUSCLE" level="1" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_LUNGE" level="1" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP" level="2" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DRAGOON_TYPE" level="3"/>
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_EXTRAATTACK_DRAGOON" level="5"/>
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_VICIOUS_CRITICAL" level="6" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_AETHER_BLADE" level="7" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_PIKE_VAULT" level="9" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_RAW_AGGRESSION" level="10" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_TWITCH" level="13" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_PRECISION" level="15" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_PIERCING_BLOW" level="17" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_PERFECTED_ART" level="20" />
+        <grant type="Professional" id="ID_GOV_CLASS_FEATURE_PROFESSIONAL" />
+    </rules>
+    </element>
+
+    <element name="Professional" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PROFESSIONAL">
+        <description></description>
+        <rules>
+            <stat name="proficiency" value="-1" level="5" />
+            <stat name="proficiency" value="-1" level="9" />
+            <stat name="proficiency" value="-1" level="17" />
+            <stat name="proficiency" value="1" level="4" />
+            <stat name="proficiency" value="1" level="7" />
+            <stat name="proficiency" value="1" level="10" />
+            <stat name="proficiency" value="1" level="16" />
+            <stat name="proficiency" value="1" level="19" />
+            <stat name="proficiency" value="1" level="20" />
+        </rules>
+    </element>
+
+    <element name="Raw Muscle" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_RAW_MUSCLE">
+        <description>
+            <p>Beginning at 1st level your raw muscle blocks some attacks, your ac equals 7 + Dex Mod + Str Mod. </p>
+        </description>
+        <sheet>
+            <description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defence dragoon}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:unarmored defence dragoon:base" value="8"/>
+            <stat name="ac:unarmored defence dragoon:base" value="2" level="20"/>
+            <stat name="ac:unarmored defence dragoon:dexterity" value="dexterity:modifier" />
+            <stat name="ac:unarmored defence dragoon:strength" value="strength:modifier" />
+            <stat name="ac:unarmored defence dragoon" value="ac:unarmored defence dragoon:base" />
+            <stat name="ac:unarmored defence dragoon" value="ac:unarmored defence dragoon:dexterity" />
+            <stat name="ac:unarmored defence dragoon" value="ac:unarmored defence dragoon:strength" />
+            <stat name="ac:calculation" value="ac:unarmored defence dragoon" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Raw Muscle (Dragoon)" />
+        </rules>
+    </element>
+
+    <element name="Lunge" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_LUNGE">
+        <description>
+            <p requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY">Starting at the 1st Level you can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage.</p>
+        </description>
+        <sheet>
+            <description requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY"> You can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage. This can move you up to your weapon's range + {{innate speed}}ft</description>
+        </sheet>
+    </element>
+
+    <element name="Heavy Sweep" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP">
+        <description>
+            <p>Starting at the 2nd Level you can swing deep into enemy lines dealing full damage to all creatures within your weapon's range</p>
+        </description>
+        <sheet>
+            <description> You can make a deep swing dealing full damage to enemies in your weapon's range.</description>
+        </sheet>
+    </element>
+    
+    <element name="Dragoon Archetype" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_DRAGOON_TYPE">
+		<description>
+			<p>At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. The Flurry archetype is detailed at the end of the class description; Your archetype grants you features at 3rd level and again at 6th, 11th, and 16th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Dragoon Archetype" supports="Dragoon Archetype" level="3" />
+		</rules>
+	</element>
+    
+    <element name="Vicious Critical" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_VICIOUS_CRITICAL">
+        <description>
+            <p>Starting at 6th level your critical strikes are so violent they automatically deal maximum damage, but this breaks your weapon in two</p>
+        </description>
+        <sheet>
+            <description>Your critical hits are so violent they automatically deal maximum damage, but break your spear in half</description>
+        </sheet>
+    </element>
+
+    <element name="Æther Blade" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_AETHER_BLADE">
+        <description>
+            <p level="7">Starting at 7th level, you can spend an action to start forming a new spear, you can spend another action on this combat to finish forming the spear, the spear lasts 1 day or until destroyed and deals 1d6 + Strength Modifier damage. In addition you can spend a long rest repairing a broken nonmagical weapon.</p>
+            <p level="18">Starting at 18th level you can spend once action to from an etherial spear, this spear lasts 1d4 days or until destroyed. You can spend a long rest repairing a nonmagical weapon.</p>
+        </description>
+        <sheet>
+            <description level="7">You can spend an action to start forming a new spear, you can spend another action on this combat to finish forming the spear, the spear lasts 1 day or until destroyed and deals 1d6 + Strength Modifier damage.</description>
+            <description>You can spend a long rest repairing a broken weapon.</description>
+            <description level="18"><strong>Razor Sharp:</strong>You can spend an action to form a etherial spear, and it now deals 1d10 Slashing and lasts 1d4 days.</description>
+        </sheet>
+    </element>
+
+    <element name="Pike Vault" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PIKE_VAULT">
+        <description>
+            <p>Starting at 9th level, as an action you can use your spear to vault yourself double your movement upwards over obstacles (eg. walls, holes)</p>
+        </description>
+        <sheet>
+            <description>As an action you can use a polearm to vault yourself over obsticles. You vault {{innate speed}}ft up and over obsticles.</description>
+        </sheet>
+    </element>
+
+    <element name="Raw Aggression" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_RAW_AGGRESSION">
+        <description>
+            <p>Starting at 10th level you can use your practice to make your next strike flawless, your next weapon attack deals critical damage if it hits. Your weapon breaks regardless of if it hits. You can use this feature a number of times equal to your strength mod (Minimum 1)</p>
+        </description>
+        <sheet>
+            <description>You can use your practice to make your next strike flawless, your next weapon attack deals critical damage if it hits. Your weapon breaks regardless of if it hits. You can use this feature {{strength:mod}} times a long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Twitch" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_TWITCH">
+        <description>
+            <p>Starting at 13th level, you gain advantage on initiative checks.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on initiative checks.</description>
+        </sheet>
+    </element>
+
+    <element name="Precision" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PRECISION">
+        <description>
+            <p>Starting at 15th level you deal critical hits on a 19 or 20.</p>
+        </description>
+        <sheet>
+            <description>You deal critical hits on a 19 or 20.</description>
+        </sheet>
+    </element>
+
+    <element name="Piercing Blow" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PIERCING_BLOW">
+        <description>
+            <p>Starting at the 17th level when wielding a polearm your weapon attacks ignore resistances and Immunities become resistances. </p>
+        </description>
+        <sheet>
+            <description>When wielding a polearm (eg. Spear, Glaive, Halberd), you ignore resistances to it's damage type, and creatures that were immune become resistant</description>
+        </sheet>
+    </element>
+
+    <element name="Extra Attack" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_EXTRAATTACK_DRAGOON">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p class="indent">The number of attacks increases to three when you reach 20th level in this class.</p>
+		</description>
+		<sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+			<description level="20">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="3" level="20" bonus="extra attack" />
+		</rules>
+	</element>
+        
+    <element name="Perfected Art" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PERFECTED_ART">
+        <description>
+            <p>Starting at the 20th level, you gain additional base proficiency, an extra attack, and your AC increases to 10 + Str + Dex.</p>
+        </description>
+        <sheet>
+            <description>You gain an additional attack, base proficiency, and your AC increases.</description>
+        </sheet>
+    </element>
+
+    <element name="Flurry" type="Archetype" source="Grimoire of Valence" id="ID_GOV_ARCHTYPE_DRAGOON_FLURRY">
+        <supports>Dragoon Archetype</supports>
+        <description>
+        <p>Starting at the 3rd level you choose the path of the Flurry, becoming an unrelenting fast paced and aggressive fighter.</p>
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_ASSAULT" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_WHIRLWIND_STRIKE" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_DOUBLE_EDGED_REACTION" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_NO_ESCAPE" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_SKYWARD_IMPALEMENT" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_LAMENT" />
+        </description>
+        <sheet display="false">
+            <description>The Flurry strikes in a flash of steel and speed</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_ASSAULT" level="3"/>
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_WHIRLWIND_STRIKE" level="3" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_DOUBLE_EDGED_REACTION" level="6" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_NO_ESCAPE" level="6" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_SKYWARD_IMPALEMENT" level="11" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_LAMENT" level="16" />
+        </rules>
+    </element>
+
+    <element name="Flurry's Assault" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_ASSAULT">
+        <description>
+            <p>Starting at 3rd level, As an action you can leap into a downward spiral slash, On a hit, it deals 2d8, The target then makes a Constitution saving throw, on a failed save it is afflicted with bleeding dealing 1d6 at the beginning of it's turn</p>
+        </description>
+        <sheet>
+            <description> As an action you can leap into a downward spiral slash, On a hit, it deals 2d8, The target then makes a Constitution saving throw, on a failed save it is afflicted with bleeding dealing 1d6 at the beginning of it's turn</description>
+        </sheet>
+    </element>
+
+    <element name="Whirlwind Strike" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_WHIRLWIND_STRIKE">
+        <description>
+            <p>Starting at 3rd level, your Heavy Strike becomes Whirlwind Strike</p>
+            <p>When you whirlwind strike you deal weapon damage to a single target, and can take a step forward for an additional weapon attack as a bonus action</p>
+        </description>
+        <sheet>
+            <description>deals weapon damage to a single target in front of you, you can make an additional weapon attack as a bonus action</description>
+        </sheet>
+    </element>
+
+    <element name="Double Edged Reaction" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_DOUBLE_EDGED_REACTION">
+        <description>
+            <p>Starting at the 6th level you may use a reaction to block an incoming attack, however doing so shatters your weapon leaving you unarmed.</p>
+        </description>
+        <sheet>
+            <description>You may use a reaction to block an incoming attack. This breaks the weapon you use to block it.</description>
+        </sheet>
+    </element>
+
+    <element name="No Escape" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_NO_ESCAPE">
+        <description>
+            <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
+        </description>
+        <sheet>
+            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon.</description>
+            <description>You may use this feature {{strength:modifier}} times each long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Skyward Impalement" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_SKYWARD_IMPALEMENT">
+        <description>
+            <p>Starting at 11th level, you can leap into the air and throw your weapon into the ground, then slam onto it dealing 5d10 + {{strength}} to a target within 15ft. </p>
+        </description>
+        <sheet>
+            <description>You can leap into the air and throw your weapon into the ground, then slam onto it dealing 5d10 + {{strength}} to a target within 15ft.</description>
+            <description>1/ Long Rest</description>
+        </sheet>
+    </element>
+
+    <element name="Flurry's Lament" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_LAMENT">
+        <description>
+            <p>Starting at 16th level, you can launch your spear with overwhelming force, On a hit, you pin your target to the nearest solid object in the line of travel within 40ft dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod</p>
+        </description>
+        <sheet>
+            <description>You throw your spear, on a hit, you pin your target to the nearest solid object in the line of travel within 40ft, dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod</description>
+            <description>1/ Long Rest</description>
+        </sheet>
+    </element>
+
+
+</elements>
