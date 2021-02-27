@@ -4,8 +4,8 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
-		<update version="0.0.2">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-weapons.xml" />
+		<update version="0.0.3">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
 		</update>
 	</info>
     <element name="Partizan" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_PARTIZAN">
@@ -15,7 +15,7 @@
         </description>
         <setters>
             <set name="category">Weapons</set>
-            <set name="cost" currency="gp">40</set>
+            <set name="cost" currency="gp">50</set>
             <set name="weight" lb="6">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d10</set>
@@ -30,15 +30,15 @@
         </description>
         <setters>
             <set name="category">Weapons</set>
-            <set name="cost" currency="gp">40</set>
+            <set name="cost" currency="gp">110</set>
             <set name="weight" lb="6">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d10</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE</set>
         </setters>
     </element>
-	
-	<element name="Caestus" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_CAESTUS">
+
+    <element name="Caestus" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_CAESTUS">
         <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
         <description>
             <p></p>
@@ -78,7 +78,7 @@
             <set name="cost" currency="gp">5</set>
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
-            <set name="damage" type="bludgeoning">1d4</set>
+            <set name="damage" type="slashing">1d6</set>
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS</set>
         </setters>
     </element>
@@ -112,4 +112,22 @@
             <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE</set>
         </setters>
     </element>
+
+
+
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL">
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR" />
+        </rules>
+    </append>
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE">
+    <rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIKED_GAUNTLETS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CAESTUS" />
+    </rules>
+    </append>
 </elements>
