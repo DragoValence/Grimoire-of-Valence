@@ -4,7 +4,7 @@
 		<name>Dragoon</name>
 		<description>The Dragoon from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
-		<update version="0.0.5">
+		<update version="0.0.4">
 			<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/dragoon.xml" />
 		</update>
 	</info>
@@ -92,7 +92,7 @@
         <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
         <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_RAW_MUSCLE" level="1" />
-        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_LUNGE" level="1" requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_LUNGE" level="1" requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY||!ID_GOV_ARCHTYPE_DRAGOON_RAVAGER" />
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP" level="2" requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY" />
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DRAGOON_TYPE" level="3"/>
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DRAGOON_ABILITY_SCORE_IMPROVEMENT" level="4" />
@@ -120,18 +120,13 @@
             <select type="Class Feature" name="Improvement Option (Dragoon 6)" supports="Improvement Option,Dragoon,6" level="6"/>
             <select type="Class Feature" name="Improvement Option (Dragoon 12)" supports="Improvement Option,Dragoon,12" level="12"/>
             <select type="Class Feature" name="Improvement Option (Dragoon 14)" supports="Improvement Option,Dragoon,14" level="14"/>
-            <select type="Class Feature" name="Improvement Option (Dragoon 16)" supports="Improvement Option,Dragoon,17" level="16"/>
+            <select type="Class Feature" name="Improvement Option (Dragoon 16)" supports="Improvement Option,Dragoon,16" level="16"/>
             <select type="Class Feature" name="Improvement Option (Dragoon 19)" supports="Improvement Option,Dragoon,19" level="19"/>
         </rules>
     </element>
 
     <element name="Professional" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PROFESSIONAL">
-	    <description>
-		    <p>You gain additional base proficiency.</p>
-	    </description>
-	    <sheet>
-		    <description>You gain additional base proficiency</description>
-	    </sheet>
+        <description>Ypu gain additional base proficiency.</description>
         <rules>
             <stat name="proficiency" value="-1" level="5" />
             <stat name="proficiency" value="-1" level="9" />
@@ -153,7 +148,7 @@
             <description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defence dragoon}}.</description>
         </sheet>
         <rules>
-            <stat name="ac:unarmored defence dragoon:base" value="8" bonus="ac"/>
+            <stat name="ac:unarmored defence dragoon:base" value="8" bonus="ac" />
             <stat name="ac:unarmored defence dragoon:base" value="2" level="20"/>
             <stat name="ac:unarmored defence dragoon:dexterity" value="dexterity:modifier" />
             <stat name="ac:unarmored defence dragoon:strength" value="strength:modifier" />
@@ -197,7 +192,7 @@
             <p>Starting at 6th level your critical strikes are so violent they automatically deal maximum damage, but this breaks your weapon in two</p>
         </description>
         <sheet>
-            <description>Your critical hits are so violent they automatically deal maximum damage, but break your spear in half</description>
+            <description>Your critical hits are so violent they automatically deal maximum damage, but break your current weapon in half, so long as it is not an unarmed weapon.</description>
         </sheet>
     </element>
 
@@ -336,10 +331,10 @@
 
     <element name="No Escape" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_NO_ESCAPE">
         <description>
-            <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
+            <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
         </description>
         <sheet>
-            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon. You may use this feature {{strength:modifier}} times each long rest.</description>
+            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon. You may use this feature {{strength:modifier}} times each long rest.</description>
         </sheet>
     </element>
 
@@ -361,5 +356,73 @@
         </sheet>
     </element>
 
+    <element name="Ravager" type="Archetype" source="Grimoire of Valence" id="ID_GOV_ARCHTYPE_DRAGOON_RAVAGER">
+        <supports>Dragoon Archetype</supports>
+        <description>
+        <p>Starting at the 3rd level, if you choose Ravager you become an unstoppable force fueled by concentrated magic.</p>
+            <div element="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_REND" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_HASTEN" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CONCENTRATION" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CRASH" />
+            <div element="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_POTENTIAL" />
+        </description>
+        <sheet display="false">
+            <description>The Ravager strikes with incredible force in hopes to finish you before their incredible magic finishes themselves.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_REND" level="3"/>
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_HASTEN" level="3" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CONCENTRATION" level="6" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CRASH" level="11" />
+            <grant type="Archetype Feature" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_POTENTIAL" level="16" />
+        </rules>
+    </element>
+
+    <element name="Rend" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_REND">
+        <description>
+            <p>Starting at 3rd level, you launch yourself double your current movement and attempt to tear off whatever you happened to plunge into, dealing the remaining range in damage in addition to 4d6 and inflicting a major injury. You may use this feature 1/ Long rest. </p>
+        </description>
+        <sheet>
+            <description>You launch yourself double your current movement and attempt to tear off whatever you happened to plunge into, dealing the remaining range in damage in addition to 4d6 and inflicting a major injury. You may use this feature 1/ Long rest.</description>
+        </sheet>
+    </element>
+
+    <element name="Hasten" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_HASTEN">
+        <description>
+            <p>Starting at 3rd level you can cast an extended haste on yourself as a bonus action. This haste lasts 3 minutes. Once you use this feature you must take a short rest before using it again. You can use this ability 3/ Long Rest</p>
+        </description>
+        <sheet>
+            <description>You can cast an extended haste on yourself as a bonus action. This haste lasts 3 minutes. Once you use this feature you must take a short rest before using it again. You can use this ability 3/ Long Rest</description>
+        </sheet>
+    </element>
+
+    <element name="Concentration" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CONCENTRATION">
+        <description>
+            <p>Starting at 6th level, as a bonus action you can concentrate your strength, until the end of your next turn, you gain an additional attack, and deal an additional 3d6 Force damage from the raw strength behind the swings and gain an additional 20ft of movement, during this your weapon cannot be broken.</p>
+            <p>At the end of this state your weapon falls to dust and you fall unconscious.</p>
+        </description>
+        <sheet>
+            <description>as a bonus action you can concentrate your strength, until the end of your next turn, you gain an additional attack, and deal an additional 3d6 Force damage from the raw strength behind the swings and gain an additional 20ft of movement, during this your weapon cannot be broken. At the end of this state your weapon falls to dust and you fall unconscious.</description>
+        </sheet>
+    </element>
+
+    <element name="Crash" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_CRASH">
+        <description>
+            <p>Starting at 11th level, you can focus your energy into even more raw power, you launch yourself at the target with such force you deal 1d6 to anybody within 10ft of where you lept from, if you land the attack you deal 10d6 + Strength + Dexterity of your weapons type, you impale the target to the ground and cause a shockwave that knocks nearby enemies prone. Your weapon is destroyed in the process, and you take 30 damage. (DC 8 + Str Mod + Proficiency Bonus). On a missed attack you fly out 40ft past your target.</p>
+        </description>
+        <sheet>
+            <description>you can focus your energy into even more raw power, you launch yourself at the target with such force you deal 1d6 to anybody within 10ft of where you lept from, if you land the attack you deal 10d6 + Strength + Dexterity of your weapons type, you impale the target to the ground and cause a shockwave that knocks nearby enemies prone. Your weapon is destroyed in the process, and you take 30 damage. (DC 8 + Str Mod + Proficiency Bonus). On a missed attack you fly out 40ft past your target.</description>
+        </sheet>
+    </element>
+
+    <element name="Potential" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_RAVAGER_POTENTIAL">
+        <description>
+            <p>Starting at 16th level, as a bonus action you can focus everything you can muster, and enchant yourself with overwhelming power, for the next minute you gain +8 bonus to attack rolls, damage rolls, AC, ability checks, and saving throws. You also gain triple movement for the duration.</p>
+            <p>At the end of this duration you lose half your max hit points, this effect cannot kill you, however it can leave you unconscious. This health cannot be restored until you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>as a bonus action you can focus everything you can muster, and enchant yourself with overwhelming power, for the next minute you gain +8 bonus to attack rolls, damage rolls, AC, ability checks, and saving throws. You also gain triple movement for the duration. At the end of this duration you lose half your max hit points, this effect cannot kill you, however it can leave you unconscious. This health cannot be restored until you finish a long rest.</description>
+        </sheet>
+    </element>
 
 </elements>
