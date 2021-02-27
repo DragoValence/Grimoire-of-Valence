@@ -339,8 +339,7 @@
             <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
         </description>
         <sheet>
-            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon.</description>
-            <description>You may use this feature {{strength:modifier}} times each long rest.</description>
+            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon. You may use this feature {{strength:modifier}} times each long rest.</description>
         </sheet>
     </element>
 
