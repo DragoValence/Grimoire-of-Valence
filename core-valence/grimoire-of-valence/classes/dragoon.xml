@@ -126,7 +126,12 @@
     </element>
 
     <element name="Professional" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PROFESSIONAL">
-        <description>Ypu gain additional base proficiency.</description>
+	    <description>
+		    <p>You gain additional base proficiency.</p>
+	    </description>
+	    <sheet>
+		    <description>You gain additional base proficiency</description>
+	    </sheet>
         <rules>
             <stat name="proficiency" value="-1" level="5" />
             <stat name="proficiency" value="-1" level="9" />
@@ -331,10 +336,10 @@
 
     <element name="No Escape" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_NO_ESCAPE">
         <description>
-            <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
+            <p>Starting at 6th level you may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon.</p>
         </description>
         <sheet>
-            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}}ft. As a bonus action you can dash to the target and retrieve your weapon.</description>
+            <description>You may hurl your weapon with tremendous force. On a hit, you deal 2d8 damage to a creature within {{innate speed}} ft. As a bonus action you can dash to the target and retrieve your weapon.</description>
             <description>You may use this feature {{strength:modifier}} times each long rest.</description>
         </sheet>
     </element>
@@ -345,16 +350,15 @@
         </description>
         <sheet>
             <description>You can leap into the air and throw your weapon into the ground, then slam onto it dealing 5d10 + {{strength}} to a target within 15ft. <strong>1/ Long Rest</strong></description>
-            <description>1/ Long Rest</description>
         </sheet>
     </element>
 
     <element name="Flurry's Lament" type="Archetype Feature" source="Grimoire of Valence" id="ID_GOV_ARCHETYPE_FEATURE_FLURRY_FLURRYS_LAMENT">
         <description>
-            <p>Starting at 16th level, you can launch your spear with overwhelming force, On a hit, you pin your target to the nearest solid object in the line of travel within 40ft dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod. 1/ Long Rest</p>
+            <p>Starting at 16th level, you can launch your spear with overwhelming force, On a hit, you pin your target to the nearest solid object in the line of travel within 40ft dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod. This breaks your weapon and you gain a level of exhaustion. 1/ Long Rest</p>
         </description>
         <sheet>
-            <description>You throw your spear, on a hit, you pin your target to the nearest solid object in the line of travel within 40ft, dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod. <strong>1/ Long Rest</strong></description>
+            <description>You throw your spear, on a hit, you pin your target to the nearest solid object in the line of travel within 40ft, dealing 2d10, then lash out in a flurry of strikes dealing 10d6 + Str Mod. You break your weapon and gain on level of exhaustion. <strong>1/ Long Rest</strong></description>
         </sheet>
     </element>
 
