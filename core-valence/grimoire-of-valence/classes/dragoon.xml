@@ -421,7 +421,7 @@
             <p>At the end of this duration you lose half your max hit points, this effect cannot kill you, however it can leave you unconscious. This health cannot be restored until you finish a long rest.</p>
         </description>
         <sheet>
-            <description>as a bonus action you can focus everything you can muster, and enchant yourself with overwhelming power, for the next minute you gain +8 bonus to attack rolls, damage rolls, AC, ability checks, and saving throws. You also gain triple movement for the duration. At the end of this duration you lose half your max hit points, this effect cannot kill you, however it can leave you unconscious. This health cannot be restored until you finish a long rest.</description>
+            <description>As a bonus action you can focus everything you can muster, and enchant yourself with overwhelming power, for the next minute you gain +8 bonus to attack rolls, damage rolls, AC, ability checks, and saving throws. You also gain triple movement for the duration. At the end of this duration you lose half your max hit points, this effect cannot kill you, however it can leave you unconscious. This health cannot be restored until you finish a long rest.</description>
         </sheet>
     </element>
 
