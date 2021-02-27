@@ -4,11 +4,11 @@
 		<name>Dragoon</name>
 		<description>The Blade Dancer from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/dragoon.xml" />
 		</update>
 	</info>
-    <element name="Dragoon" type="Class" source="Grimoire of Valence" id="ID_GOV_CLASS_DRAGOON">
+     <element name="Dragoon" type="Class" source="Grimoire of Valence" id="ID_GOV_CLASS_DRAGOON">
     <description>
         <p>In a charge, with a twirl then a twist the human slashes with exquisite precision and just as much fervor, lacerating the limbs and in a flurry of steel deals a mortal wound.</p>
         <p>A lone dragonborn stands on a ravaged battlefield, facing ruination, he mutters an ancient curse and launches himself in a shockwave that shakes the earth.</p>
@@ -92,8 +92,8 @@
         <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
         <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_RAW_MUSCLE" level="1" />
-        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_LUNGE" level="1" />
-        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP" level="2" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_LUNGE" level="1" requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY" />
+        <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_HEAVY_SWEEP" level="2" requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY" />
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_DRAGOON_TYPE" level="3"/>
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_EXTRAATTACK_DRAGOON" level="5"/>
         <grant type="Class Feature" id="ID_GOV_CLASS_FEATURE_VICIOUS_CRITICAL" level="6" />
@@ -109,7 +109,7 @@
     </element>
 
     <element name="Professional" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_PROFESSIONAL">
-        <description></description>
+        <description>Ypu gain additional base proficiency.</description>
         <rules>
             <stat name="proficiency" value="-1" level="5" />
             <stat name="proficiency" value="-1" level="9" />
@@ -131,7 +131,7 @@
             <description>While you are wearing no armor and not wielding a shield, your AC equals {{ac:unarmored defence dragoon}}.</description>
         </sheet>
         <rules>
-            <stat name="ac:unarmored defence dragoon:base" value="8"/>
+            <stat name="ac:unarmored defence dragoon:base" value="8" bonus="ac"/>
             <stat name="ac:unarmored defence dragoon:base" value="2" level="20"/>
             <stat name="ac:unarmored defence dragoon:dexterity" value="dexterity:modifier" />
             <stat name="ac:unarmored defence dragoon:strength" value="strength:modifier" />
@@ -144,10 +144,10 @@
 
     <element name="Lunge" type="Class Feature" source="Grimoire of Valence" id="ID_GOV_CLASS_FEATURE_LUNGE">
         <description>
-            <p requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY">Starting at the 1st Level you can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage.</p>
+            <p>Starting at the 1st Level you can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage.</p>
         </description>
         <sheet>
-            <description requirements="!ID_GOV_ARCHTYPE_DRAGOON_FLURRY"> You can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage. This can move you up to your weapon's range + {{innate speed}}ft</description>
+            <description> You can lunge at a target and preform a weapon attack. On a hit, the target takes 1d4 + Weapon Damage. This can move you up to your weapon's range + {{innate speed}}ft</description>
         </sheet>
     </element>
 
@@ -205,7 +205,7 @@
             <p>Starting at 10th level you can use your practice to make your next strike flawless, your next weapon attack deals critical damage if it hits. Your weapon breaks regardless of if it hits. You can use this feature a number of times equal to your strength mod (Minimum 1)</p>
         </description>
         <sheet>
-            <description>You can use your practice to make your next strike flawless, your next weapon attack deals critical damage if it hits. Your weapon breaks regardless of if it hits. You can use this feature {{strength:mod}} times a long rest.</description>
+            <description>You can use your practice to make your next strike flawless, your next weapon attack deals critical damage if it hits. Your weapon breaks regardless of if it hits. You can use this feature {{strength:modifier}} times a long rest.</description>
         </sheet>
     </element>
 
