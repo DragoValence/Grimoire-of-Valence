@@ -4,7 +4,7 @@
 		<name>Dragoon</name>
 		<description>The Dragoon from Drago Valence</description>
 		<author url="https://github.com/DragoValence">Grimoire of Valence</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/dragoon.xml" />
 		</update>
 	</info>
