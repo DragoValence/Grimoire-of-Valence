@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
-		<update version="0.0.5">
+		<update version="0.0.4">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
 		</update>
 	</info>
@@ -19,7 +19,7 @@
             <set name="weight" lb="6">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d10</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE</set>
         </setters>
     </element>
 
@@ -34,7 +34,7 @@
             <set name="weight" lb="6">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d10</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE</set>
         </setters>
     </element>
 
@@ -49,7 +49,7 @@
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
             <set name="damage" type="bludgeoning">1d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CAESTUS</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
         </setters>
     </element>
 
@@ -64,7 +64,7 @@
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
             <set name="damage" type="piercing">1d8</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
         </setters>
     </element>
 
@@ -79,7 +79,7 @@
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
             <set name="damage" type="slashing">1d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FALCHION</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
         </setters>
     </element>
 
@@ -94,7 +94,7 @@
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
             <set name="damage" type="slashing">1d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
         </setters>
     </element>
 
@@ -108,8 +108,8 @@
             <set name="cost" currency="gp">20</set>
             <set name="weight" lb="1">1 lb.</set>
             <set name="slot">onehand</set>
-            <set name="damage" type="slashing">1d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIKED_GAUNTLETS</set>
+            <set name="damage" type="piercing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF</set>
         </setters>
     </element>
 
@@ -124,7 +124,7 @@
             <set name="weight" lb="6">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">1d10</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD</set>
         </setters>
     </element>
 
@@ -139,7 +139,7 @@
             <set name="weight" lb="1">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">2d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KRIEGSMESSER</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
         </setters>
     </element>
 
@@ -154,26 +154,7 @@
             <set name="weight" lb="1">6 lb.</set>
             <set name="slot">twohand</set>
             <set name="damage" type="slashing">2d6</set>
-            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ODACHI</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
         </setters>
     </element>
-
-    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL">
-        <rules>
-            <grant type="Proficiency" id="ID_GOV_WEAPON_ODACHI" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KRIEGSMESSER" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FALCHION" />
-        </rules>
-    </append>
-    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE">
-    <rules>
-        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIKED_GAUNTLETS" />
-        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS" />
-        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CAESTUS" />
-    </rules>
-    </append>
 </elements>
