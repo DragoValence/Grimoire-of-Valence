@@ -1,21 +1,179 @@
-<?xml version="1.0" encoding="utf-8"?>
-<index>
+<?xml version="1.0" encoding="utf-8" ?>
+<elements> 
 	<info>
-		<name>Grimoire of Valence</name>
-		<description>The Grimoire of content from Drago Valence</description>
-		<author url="https://github.com/DragoValence">Drago Valence</author>
-		<update version="0.11">
-			<file name="grimoire-of-valence.index" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence.index" />
+		<name>Weapons</name>
+		<description></description>
+		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
+		<update version="0.0.4">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
 		</update>
 	</info>
-    <files>
-        <file name="source.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/source.xml" />
+    <element name="Partizan" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_PARTIZAN">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN</set>
+        </setters>
+    </element>
 
-        <!--Classes-->
-        <file name="blade-dancer.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/blade-dancer.xml" />
-	<file name="dragoon.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/classes/dragoon.xml" />
-	<!--Items-->
-	<file name="items-gear.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
-	<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-weapons.xml" />
-   </files>
-</index>
+    <element name="Bardiche" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_BARDICHE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">110</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE</set>
+        </setters>
+    </element>
+
+    <element name="Caestus" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_CAESTUS">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="bludgeoning">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CAESTUS</set>
+        </setters>
+    </element>
+
+    <element name="Katar" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_KATAR">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="piercing">1d8</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR</set>
+        </setters>
+    </element>
+
+    <element name="Falchion" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_FALCHION">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">10</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_FALCHION</set>
+        </setters>
+    </element>
+
+    <element name="Knuckle Wraps" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_KNUCKLE_WRAPS">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">5</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS</set>
+        </setters>
+    </element>
+
+    <element name="Spiked Gauntlets" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_SPIKED_GAUNTLETS">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">onehand</set>
+            <set name="damage" type="slashing">1d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIKED_GAUNTLETS</set>
+        </setters>
+    </element>
+
+    <element name="War Scythe" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_WAR_SCYTHE">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_HEAVY, ID_INTERNAL_WEAPON_PROPERTY_REACH, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">40</set>
+            <set name="weight" lb="6">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">1d10</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE</set>
+        </setters>
+    </element>
+
+    <element name="Kriegsmesser" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_KRIEGSMESSER">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="1">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">2d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KRIEGSMESSER</set>
+        </setters>
+    </element>
+
+    <element name="Odachi" type="Weapon" source="Grimoire of Valence" id="ID_GOV_WEAPON_ODACHI">
+        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+        <description>
+            <p></p>
+        </description>
+        <setters>
+            <set name="category">Weapons</set>
+            <set name="cost" currency="gp">100</set>
+            <set name="weight" lb="1">6 lb.</set>
+            <set name="slot">twohand</set>
+            <set name="damage" type="slashing">2d6</set>
+            <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_ODACHI</set>
+        </setters>
+    </element>
+
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+        <rules>
+            <grant type="Proficiency" id="ID_GOV_WEAPON_ODACHI" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_PARTIZAN" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BARDICHE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_SCYTHE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KRIEGSMESSER" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FALCHION" />
+        </rules>
+    </append>
+    <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+    <rules>
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPIKED_GAUNTLETS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KNUCKLE_WRAPS" />
+        <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CAESTUS" />
+    </rules>
+    </append>
+</elements>
