@@ -4,7 +4,7 @@
 		<name>Weapons</name>
 		<description></description>
 		<author url="https://github.com/DragoValence/Grimoire-of-Valence">Grimoire of Valence</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/DragoValence/Grimoire-of-Valence/main/core-valence/grimoire-of-valence/items/items-gear.xml" />
 		</update>
 	</info>
