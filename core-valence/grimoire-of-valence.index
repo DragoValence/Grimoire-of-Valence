@@ -167,6 +167,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATAR" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KRIEGSMESSER" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FALCHION" />
+	    <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_ODACHI" />
         </rules>
     </append>
     <append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
